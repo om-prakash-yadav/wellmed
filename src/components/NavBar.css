@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E0F7FA;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+     font-size: 18px;
+
+  }
+  .logo span {
+    font-weight: 800;
+    font-size: 25px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    /* Add more styles for your links here */
+  }
+  
+  .get-started-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00B0FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add more styles for your button here */
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      display: block;
+    }
+    .nav-item {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    .menu-icon {
+      display: block;
+    }
+    /* Hide the navigation items and only show the menu icon */
+    .nav-links {
+      display: none;
+    }
+    /* Styles for when the menu icon is clicked (show the nav items) */
+    .nav-active {
+      display: block;
+    }
+  }
