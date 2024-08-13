@@ -11,9 +11,9 @@ const NavBar = () => {
         <ul className="nav-links menu">
           <li><a href="/services">Services</a></li>
           <li><a href="/doctors">Doctors</a></li>
-          <li><a href="/patients">Patients</a></li>
-          <li><a href="/pricing">Medicines</a></li>
+          <li><a href="/pricing">MediStore</a></li>
           <li><a href="/support">Support</a></li>
+          <li><a href="/support">Health Blogs</a></li>
         </ul>
       </nav>
       <div class="container">

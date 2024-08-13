@@ -14,7 +14,6 @@
 .cards {
   position: relative;
   z-index: 1; /* Ensure the container has a lower z-index */
-  cursor: pointer;
 }
 
 .card-body {
@@ -69,5 +68,4 @@
 
 .cards:hover .card-body {
   z-index: 10; /* Ensure the card-body maintains a higher z-index */
-  transform: scale(1.02);
 }
