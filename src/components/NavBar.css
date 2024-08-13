@@ -1,68 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&display=swap');
 
-*{
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
+* {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
 }
 
 
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E0F7FA;
-    padding: 10px 20px;
-  }
-  
-  .logo {
-     font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddf3fd;
+  padding: 10px 20px;
+}
 
+.logo {
+  font-size: 18px;
+}
+
+.logo img {
+  height: 50px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.logo span {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a:hover, a:focus {
+	outline: none;
+}
+
+.menu a {
+	padding: 15px 25px;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+  color: black;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-links a {
+	overflow: visible;
+	padding: .25em .4em;
+  font-size: 14px;
+  margin: 2px 8px;
+
+}
+
+.nav-links a:before, .nav-links a:after {
+	-webkit-transition: -webkit-transform .3s;
+	transition: transform .3s;
+	background: #00B0FF;
+	content: "";
+	position: absolute;
+}
+
+
+
+.nav-links a:after {
+	top: 110%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0)
+}
+
+.nav-links a:hover:before {
+	webkit-transform: scale(1);
+	transform: scale(1)
+}
+
+.nav-links a:hover:after {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1)
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: block;
   }
-  .logo span {
-    font-weight: 800;
-    font-size: 25px;
+
+  .nav-item {
+    display: block;
+    width: 100%;
+    text-align: left;
   }
-  
+
+  .menu-icon {
+    display: block;
+  }
+
+  /* Hide the navigation items and only show the menu icon */
   .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #333;
-    /* Add more styles for your links here */
-  }
-  
-  .get-started-btn {
-    padding: 10px 20px;
-    border: none;
-    background-color: #00B0FF;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    /* Add more styles for your button here */
+    display: none;
   }
 
-  @media (max-width: 768px) {
-    .navbar {
-      display: block;
-    }
-    .nav-item {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-    .menu-icon {
-      display: block;
-    }
-    /* Hide the navigation items and only show the menu icon */
-    .nav-links {
-      display: none;
-    }
-    /* Styles for when the menu icon is clicked (show the nav items) */
-    .nav-active {
-      display: block;
-    }
+  /* Styles for when the menu icon is clicked (show the nav items) */
+  .nav-active {
+    display: block;
   }
+}
+
+.container {
+  position: relative;
+  z-index: 1; /* Ensure the container has a lower z-index */
+}
+
+.back-div {
+  width: 120px;
+  background-color: #00B0FF;
+  height: 32px;
+  padding: 7px 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  border-radius: 5px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.get-started {
+  padding: 7px 10px;
+  border: none;
+  background-color: white;
+  color: #00B0FF;
+  border-radius: 5px;
+  border: 0.1px solid #00B0FF;
+  width: 120px;
+  cursor: pointer;
+  z-index: 10;
+  position: relative; 
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.get-started:hover + .back-div {
+  transform: rotate(-5deg); /* Tilt back on hover */
+}
+
+.get-started:hover {
+  z-index: 10; /* Ensure the get-started button maintains a higher z-index */
+  position: relative; /* Ensure it remains positioned */
+  border: 1px solid #00B0FF;
+}
+
