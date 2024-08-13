@@ -12,7 +12,7 @@ const NavBar = () => {
           <li><a href="/services">Services</a></li>
           <li><a href="/doctors">Doctors</a></li>
           <li><a href="/patients">Patients</a></li>
-          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/pricing">Medicines</a></li>
           <li><a href="/support">Support</a></li>
         </ul>
       </nav>
