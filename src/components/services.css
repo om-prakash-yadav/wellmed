@@ -1,0 +1,43 @@
+.main{
+    background-color: aliceblue;
+  }.App {
+    text-align: center;
+  }
+  .para{
+    width:500px;
+    margin-left: 370px;
+    padding:20px;
+  }
+  .card{
+    width: 300px;
+    background-color: rgb(223, 239, 242);
+    height:325px;
+    border-radius: 20px;
+  }
+  .card:hover{
+    transform: rotate(5deg);
+    transition-timing-function: linear;
+    transition-duration: 400ms;
+  }
+  img{
+    width:100px;
+    margin-left: 100px;
+    height:100px;
+    margin-top:50px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  .rotate{
+    border-radius: 20px;
+    background-color: lightblue;
+  }
+  .card-text{
+    padding:25px;
+    padding-left:30px;
+  }
+  
+  
