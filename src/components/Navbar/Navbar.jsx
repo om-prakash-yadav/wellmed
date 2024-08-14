@@ -16,8 +16,8 @@ const NavBar = () => {
           <li><a href="/support">Support</a></li>
         </ul>
       </nav>
-      <div class="container">
-        <div class="get-started">GET STARTED</div>
+      <div className="container">
+        <div className="get-started">GET STARTED</div>
         <div className='back-div'></div>
       </div>
     </header>
