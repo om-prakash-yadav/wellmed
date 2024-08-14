@@ -1,0 +1,157 @@
+.App {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f0f8ff;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    max-width: 50%;
+  }
+  
+  /* Services Section */
+  .services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #fff;
+  }
+  
+  .service-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Steps Section */
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #f0f8ff;
+  }
+  
+  .step-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Safety Section */
+  .safety {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .safety h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .safety p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .explore-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Our Services Section */
+  .our-services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #f0f8ff;
+  }
+  
+  .our-services .service-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .testimonial-card {
+    margin: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    padding: 50px;
+    background: #f0f8ff;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
