@@ -4,7 +4,6 @@
     color: #333;
   }
   
-  /* Hero Section */
   .hero {
     display: flex;
     justify-content: space-between;
@@ -40,7 +39,6 @@
     max-width: 50%;
   }
   
-  /* Services Section */
   .services {
     display: flex;
     justify-content: space-around;
@@ -58,7 +56,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Steps Section */
   .steps {
     display: flex;
     justify-content: space-around;
@@ -76,7 +73,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Safety Section */
   .safety {
     padding: 50px;
     background: #fff;
@@ -102,7 +98,6 @@
     cursor: pointer;
   }
   
-  /* Our Services Section */
   .our-services {
     display: flex;
     justify-content: space-around;
@@ -120,7 +115,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Testimonials Section */
   .testimonials {
     padding: 50px;
     background: #fff;
@@ -135,7 +129,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Call to Action Section */
   .call-to-action {
     padding: 50px;
     background: #f0f8ff;
