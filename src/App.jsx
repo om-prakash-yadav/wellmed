@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from './components/Navbar'
-import Services from './components/Service'
+import NavBar from './components/navBar/Navbar'
+import Services from './components/Services/Service'
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
