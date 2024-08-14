@@ -10,6 +10,7 @@
   align-items: center;
   padding: 50px;
   background: #f0f8ff;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .heroContent {
@@ -33,11 +34,25 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.appointmentBtn:hover {
+  background: #0056b3;
 }
 
 .heroImage {
   max-width: 50%;
 }
+
+.image {
+  border-radius: 500px;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  animation: fadeIn 2s ease-in-out;
+}
+
 
 .services {
   display: flex;
@@ -54,7 +69,13 @@
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+}
+
 
 .steps {
   display: flex;
@@ -71,19 +92,19 @@
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
+.stepCard:hover {
+  transform: translateY(-10px);
+}
+
 
 .safety {
   padding: 50px;
   background: #fff;
   text-align: center;
-}
-
-.image {
-   border-radius: 500px;
-   height: 400px;
-   width: 400px;
-   object-fit: cover;
+  animation: slideIn 1s ease-in-out;
 }
 
 .safety h2 {
@@ -103,6 +124,11 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.exploreBtn:hover {
+  background: #0056b3;
 }
 
 .ourServices {
@@ -120,7 +146,13 @@
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
+.ourServices .serviceCard:hover {
+  transform: translateY(-10px);
+}
+
 
 .testimonials {
   padding: 50px;
@@ -134,12 +166,19 @@
   background: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
+.testimonialCard:hover {
+  transform: translateY(-10px);
+}
+
 
 .callToAction {
   padding: 50px;
   background: #f0f8ff;
   text-align: center;
+  animation: slideIn 1s ease-in-out;
 }
 
 .callToAction h2 {
@@ -154,4 +193,30 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contactBtn:hover {
+  background: #0056b3;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

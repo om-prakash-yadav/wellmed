@@ -11,9 +11,11 @@ function Home() {
           <button className={styles.appointmentBtn}>Book an Appointment</button>
         </div>
         <div className={styles.heroImage}>
-         
-          <img className={styles.image} 
-          src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg" alt="Hero" />
+          <img
+            className={styles.image}
+            src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg"
+            alt="Hero"
+          />
         </div>
       </section>
 
