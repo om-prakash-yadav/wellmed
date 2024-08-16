@@ -17,13 +17,13 @@ const Services = () => {
   }
   return (
     <div className='services'>
-      <h2>Our services</h2>
-      <p >Suspus mus efwobusiuegdrfviubfr wef sdv wefsdvx  wesdx  wesdv wesdvc  wesdvx we wesd fwsd wesd rsvdf 4wefsd wesdz gresdv wesdvz x</p>
+      <h2 className='title'>Our services</h2>
+      <p className='subtitle'>Suspus mus efwobusiuegdrfviubfr wef sdv wefsdvx  wesdx  wesdv wesdvc  wesdvx we wesd fwsd wesd rsvdf 4wefsd wesdz gresdv wesdvz x</p>
       <div className='flex'>
-        <Service/>
-        <Service/>
-        <Service/>
-        <Service/>
+        <Service />
+        <Service />
+        <Service />
+        <Service />
       </div>
     </div>
   );
