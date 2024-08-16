@@ -17,8 +17,13 @@
 
 .logo {
   font-size: 18px;
+  transition: transform .2s;
 }
 
+.logo:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}
 .logo img {
   height: 50px;
   width: 200px;
