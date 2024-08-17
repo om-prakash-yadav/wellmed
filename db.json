@@ -241,5 +241,186 @@
             "manufacturer": "MagnesiumHealth",
             "quantity":1
         }
+    ],
+    "Doctors":[
+        {
+            "id": 1,
+            "name": "Dr. John Smith",
+            "specialization": "Cardiology",
+            "about": "Dr. John Smith has over 15 years of experience in cardiology, specializing in heart disease and preventive care.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "New York, NY"
+        },
+        {
+            "id": 2,
+            "name": "Dr. Emily Johnson",
+            "specialization": "Neurology",
+            "about": "Dr. Emily Johnson has 10 years of experience in neurology, focusing on neurological disorders and patient care.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Los Angeles, CA"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Michael Brown",
+            "specialization": "Orthopedics",
+            "about": "Dr. Michael Brown has 12 years of experience in orthopedics, specializing in bone and joint surgery.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Chicago, IL"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Sarah Davis",
+            "specialization": "Pediatrics",
+            "about": "Dr. Sarah Davis has 8 years of experience in pediatrics, providing comprehensive care for children.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Houston, TX"
+        },
+        {
+            "id": 5,
+            "name": "Dr. David Wilson",
+            "specialization": "Dermatology",
+            "about": "Dr. David Wilson has 14 years of experience in dermatology, specializing in skin care and treatment.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Phoenix, AZ"
+        },
+        {
+            "id": 6,
+            "name": "Dr. Jessica Martinez",
+            "specialization": "Gynecology",
+            "about": "Dr. Jessica Martinez has 9 years of experience in gynecology, focusing on women's health and reproductive care.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Philadelphia, PA"
+        },
+        {
+            "id": 7,
+            "name": "Dr. Daniel Anderson",
+            "specialization": "Oncology",
+            "about": "Dr. Daniel Anderson has 11 years of experience in oncology, specializing in cancer treatment and research.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "San Antonio, TX"
+        },
+        {
+            "id": 8,
+            "name": "Dr. Laura Thomas",
+            "specialization": "Ophthalmology",
+            "about": "Dr. Laura Thomas has 13 years of experience in ophthalmology, focusing on eye care and surgery.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "San Diego, CA"
+        },
+        {
+            "id": 9,
+            "name": "Dr. Robert Jackson",
+            "specialization": "Psychiatry",
+            "about": "Dr. Robert Jackson has 16 years of experience in psychiatry, specializing in mental health and therapy.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Dallas, TX"
+        },
+        {
+            "id": 10,
+            "name": "Dr. Mary White",
+            "specialization": "Endocrinology",
+            "about": "Dr. Mary White has 10 years of experience in endocrinology, focusing on hormonal disorders and diabetes care.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "San Jose, CA"
+        },
+        {
+            "id": 11,
+            "name": "Dr. James Harris",
+            "specialization": "Gastroenterology",
+            "about": "Dr. James Harris has 12 years of experience in gastroenterology, specializing in digestive system disorders.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Austin, TX"
+        },
+        {
+            "id": 12,
+            "name": "Dr. Patricia Martin",
+            "specialization": "Rheumatology",
+            "about": "Dr. Patricia Martin has 9 years of experience in rheumatology, focusing on arthritis and autoimmune diseases.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Jacksonville, FL"
+        },
+        {
+            "id": 13,
+            "name": "Dr. Charles Lee",
+            "specialization": "Urology",
+            "about": "Dr. Charles Lee has 14 years of experience in urology, specializing in urinary tract and male reproductive health.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Fort Worth, TX"
+        },
+        {
+            "id": 14,
+            "name": "Dr. Barbara Walker",
+            "specialization": "Pulmonology",
+            "about": "Dr. Barbara Walker has 11 years of experience in pulmonology, focusing on lung and respiratory disorders.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Columbus, OH"
+        },
+        {
+            "id": 15,
+            "name": "Dr. Steven Hall",
+            "specialization": "Nephrology",
+            "about": "Dr. Steven Hall has 13 years of experience in nephrology, specializing in kidney care and treatment.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Charlotte, NC"
+        },
+        {
+            "id": 16,
+            "name": "Dr. Linda Allen",
+            "specialization": "Hematology",
+            "about": "Dr. Linda Allen has 10 years of experience in hematology, focusing on blood disorders and treatments.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "San Francisco, CA"
+        },
+        {
+            "id": 17,
+            "name": "Dr. Kevin Young",
+            "specialization": "Immunology",
+            "about": "Dr. Kevin Young has 8 years of experience in immunology, specializing in immune system disorders.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Indianapolis, IN"
+        },
+        {
+            "id": 18,
+            "name": "Dr. Karen King",
+            "specialization": "Otolaryngology",
+            "about": "Dr. Karen King has 15 years of experience in otolaryngology, focusing on ear, nose, and throat disorders.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Seattle, WA"
+        },
+        {
+            "id": 19,
+            "name": "Dr. Brian Wright",
+            "specialization": "Anesthesiology",
+            "about": "Dr. Brian Wright has 12 years of experience in anesthesiology, specializing in pain management and anesthesia.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Denver, CO"
+        },
+        {
+            "id": 20,
+            "name": "Dr. Susan Scott",
+            "specialization": "Radiology",
+            "about": "Dr. Susan Scott has 11 years of experience in radiology, focusing on imaging and diagnostic techniques.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Washington, DC"
+        },
+        {
+            "id": 21,
+            "name": "Dr. Mark Green",
+            "specialization": "Pathology",
+            "about": "Dr. Mark Green has 14 years of experience in pathology, specializing in disease diagnosis through laboratory analysis.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "Boston, MA"
+        },
+        {
+            "id": 22,
+            "name": "Dr. Nancy Adams",
+            "specialization": "Allergy and Immunology",
+            "about": "Dr. Nancy Adams has 9 years of experience in allergy and immunology, focusing on allergic reactions and immune system disorders.",
+            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+            "location": "El Paso, TX"
+        }
     ]
+    
+    
+    
 }
