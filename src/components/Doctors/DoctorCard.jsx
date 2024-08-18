@@ -30,7 +30,7 @@ const DoctorCard = ({item,index}) => {
                         <p>{item.about}</p>
                     </div>
                     <div className='card-footer'>
-                        <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
+                        <input className='date-select' type="date" value={date} onChange={(e) => setDate(e.target.value)} />
                         <div>
                             <button className='appointment' onClick={add}>Appointment</button>
                         </div>

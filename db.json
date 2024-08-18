@@ -316,14 +316,6 @@
             "location": "Dallas, TX"
         },
         {
-            "id": 10,
-            "name": "Dr. Mary White",
-            "specialization": "Endocrinology",
-            "about": "Dr. Mary White has 10 years of experience in endocrinology, focusing on hormonal disorders and diabetes care.",
-            "img_src": "https://encrypted-tbn0.gstatimages/idd9GcRQJZ7Y5xqtFhk6Gk_2sswoEmJ4ikz0D7WMqw&s",
-            "location": "San Jose, CA"
-        },
-        {
             "id": 11,
             "name": "Dr. James Harris",
             "specialization": "Gastroenterology",
@@ -347,22 +339,7 @@
             "img_src": "https://t3.ftcdn.net/jpg/03/00/22/02/360_F_300220248_VKEd3QKx31kzqHcwZfnGmWKZLYTjf8R0.jpg",
             "location": "Fort Worth, TX"
         },
-        {
-            "id": 14,
-            "name": "Dr. Barbara Walker",
-            "specialization": "Pulmonology",
-            "about": "Dr. Barbara Walker has 11 years of experience in pulmonology, focusing on lung and respiratory disorders.",
-            "img_src": "https://encrypted-tbn0.gstatimages/idd9GcRsd3FrSGcTJIaB4uK_7HG_zSQuJbF56nnvWA&s",
-            "location": "Columbus, OH"
-        },
-        {
-            "id": 15,
-            "name": "Dr. Steven Hall",
-            "specialization": "Nephrology",
-            "about": "Dr. Steven Hall has 13 years of experience in nephrology, specializing in kidney care and treatment.",
-            "img_src": "https://encrypted-tbn0.gstatimages/idd9GcQf0eoZlUCzEB6yWF4FRgAWt5OjRVhUVdpFhQ&s",
-            "location": "Charlotte, NC"
-        },
+       
         {
             "id": 16,
             "name": "Dr. Linda Allen",
@@ -386,14 +363,6 @@
             "about": "Dr. Karen King has 15 years of experience in otolaryngology, focusing on ear, nose, and throat disorders.",
             "img_src": "https://st4.depositphotos.com/12985790/21800/i/450/depositphotos_218003704-stock-photo-smiling-young-female-doctor-medical.jpg",
             "location": "Seattle, WA"
-        },
-        {
-            "id": 19,
-            "name": "Dr. Brian Wright",
-            "specialization": "Anesthesiology",
-            "about": "Dr. Brian Wright has 12 years of experience in anesthesiology, specializing in pain management and anesthesia.",
-            "img_src": "himages/idrsation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip",
-            "location": "Denver, CO"
         },
         {
             "id": 20,

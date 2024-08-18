@@ -9,17 +9,19 @@ const servicesData = [
   { id: 2, title: 'Dental Care', description: 'Comprehensive dental care services for all ages.', icon: <FaTooth size={50} /> },
   { id: 3, title: 'Cardiology', description: 'Expert cardiology services for heart health.', icon: <FaHeartbeat size={50} /> },
   { id: 4, title: 'Dermatology', description: 'Advanced dermatology services for skin care.', icon: <FaSkiing size={50} /> },
-  // Add more services as needed
+ 
 ];
 
 const Services = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 2000,
     slidesToShow: 3.5,
     slidesToScroll: 2,
     centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 500,
     responsive: [
       {
         breakpoint: 1024,
