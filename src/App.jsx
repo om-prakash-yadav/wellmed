@@ -9,6 +9,8 @@ import Home from './components/Home/Home';
 import Cart from './components/cart/Cart'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Login from './components/logins/Login'
+import Register from './components/logins/Register';
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
         <Route path='/store' element={<MediStore />} />
         <Route path='/cart' element={<Cart />} />
 
+        <Route path ='/register' element={<Register/>}/> 
+        <Route path='/login' element={<Login/>}/>
       </Routes>
     </div>
   )
