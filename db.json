@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "f375",
+      "name": "kk",
+      "email": "Kriti@gmail.com",
+      "password": "Kriti@231",
+      "confirmPassword": "Kriti@231"
+    }
+  ]
+}

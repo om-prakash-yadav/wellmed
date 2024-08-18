@@ -22,12 +22,16 @@ const NavBar = () => {
           <li><Link to="/store">MediStore</Link></li>
           <li><Link to="/support">Support</Link></li>
           <li><Link to="/blogs">Health Blogs</Link></li>
+           <Link to="/login"> </Link>
         </ul>
       </nav>
-      <div class="container">
-        <div class="get-started">GET STARTED</div>
+      <nav>
+      <div className="container">
+        <div className="get-started" > <Link to="/register">GET STARTED</Link>   </div>
         <div className='back-div'></div>
       </div>
+      </nav>
+      
     </header>
   );
 };

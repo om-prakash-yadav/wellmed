@@ -1,0 +1,99 @@
+.registerWrapper {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('./back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.registerformcontainer {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px  #4b96ab;
+    margin-bottom: 50px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.registerformgroup {
+    position: relative;
+    padding: 10px;
+
+}
+
+.registerInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.registerLebel {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #000;
+}
+
+.registerButton {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registererror {
+    color: red;
+    /* margin-bottom: 10px;
+    margin-top: -10px; */
+    margin-top: -15px;
+
+}
+
+.registerButton:hover {
+    background: darkgreen;
+}
+
+.regP {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.regA {
+    color: blue;
+    text-decoration: none;
+}
+
+.regA:hover {
+    text-decoration: underline;
+}
