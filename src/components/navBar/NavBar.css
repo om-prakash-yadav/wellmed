@@ -6,6 +6,7 @@
 }
 
 .navbar-brand img {
+  height: 40px;
   cursor: pointer;
   transition: transform .2s;
 }
@@ -32,7 +33,7 @@
 }
 
 .navbar-nav .nav-link:after {
-  top: 110%;
+  top: 80%;
   left: 0;
   width: 100%;
   height: 2px;
@@ -52,30 +53,30 @@
   color: #00B0FF;
   position: relative;
   z-index: 10;
-  transition: all 0.3s ease;
+  transition: all 0.7s linear;
+  outline-color: #00B0FF;
 }
 
 .btn-outline-primary:hover {
-  background-color: #00B0FF;
-  color: white;
+  color: #00B0FF;
+  background-color: white;
 }
-/* 
+
 .back-div {
-  width: 124px;
-  background-color: #00B0FF;
-  height: 34px;
+  width: 126px;
+  height: 36px;
   padding: 7px 10px;
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 0;
   border-radius: 5px;
   transform: rotate(0deg);
   transition: transform 0.3s ease;
-} */
+}
 
 .get-started:hover + .back-div {
   transform: rotate(-5deg);
+  background-color: #00B0FF;
 }
 
 @media (max-width: 768px) {
@@ -104,6 +105,15 @@
   .btn-outline-primary {
     margin-bottom: 10px;
   }
+
+  .start-container {
+    width: 100%;
+  }
+
+  .get-started {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 769px) {
@@ -115,9 +125,18 @@
     padding: 15px 25px;
     text-align: center;
   }
+
+  .start-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .get-started {
+    margin-right: 10px;
+  }
 }
 
-.start-container{
+.start-container {
   position: relative;
   max-width: fit-content;
 }
