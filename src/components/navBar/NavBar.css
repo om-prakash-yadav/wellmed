@@ -55,6 +55,7 @@
   z-index: 10;
   transition: all 0.7s linear;
   outline-color: #00B0FF;
+  background-color: white;
 }
 
 .btn-outline-primary:hover {
@@ -72,11 +73,13 @@
   border-radius: 5px;
   transform: rotate(0deg);
   transition: transform 0.3s ease;
+  background-color: #00B0FF;
+  z-index: 0;
 }
 
 .get-started:hover + .back-div {
   transform: rotate(-5deg);
-  background-color: #00B0FF;
+ 
 }
 
 @media (max-width: 768px) {
