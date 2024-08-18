@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import axios from "axios";
 import './Medistore.css'
+import { CartContext } from '../../contexts/CartContext';
 
 const MediStore = () => {
   const [products, setProducts] = useState([]);
+  const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
     axios.get('http://localhost:3000/medicines')
@@ -31,7 +33,7 @@ const MediStore = () => {
               <p>{product.description}</p>
               <div className="price-add">
                 <span className="price">${product.price}</span>
-                <button className="add-to-cart">
+                <button onClick={() => addToCart(product)} className="add-to-cart">
                   <span><i className="fa fa-shopping-cart"></i></span> Add to cart
                 </button>
               </div>
