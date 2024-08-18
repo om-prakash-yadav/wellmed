@@ -1,399 +1,406 @@
 {
-    "medicines": [
-        {
-            "image": "./images/id1.jpg",
-            "alt": "A bottle of pain relief medicine",
-            "title": "Pain Relief Medicine",
-            "description": "Effective pain relief for headaches, muscle aches, and more.",
-            "price": 15.99,
-            "id": 1,
-            "usage": "Take one tablet every 4-6 hours as needed.",
-            "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
-            "manufacturer": "HealthCorp Pharmaceuticals",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id2.jpg",
-            "alt": "A box of allergy relief tablets",
-            "title": "Allergy Relief Tablets",
-            "description": "Provides fast relief from allergy symptoms such as sneezing and runny nose.",
-            "price": 12.49,
-            "id": 2,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "May cause dry mouth or drowsiness.",
-            "manufacturer": "AllergyFree Inc.",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id3.webp",
-            "alt": "A bottle of cough syrup",
-            "title": "Cough Syrup",
-            "description": "Soothes throat and relieves cough.",
-            "price": 8.99,
-            "id": 3,
-            "usage": "Take two teaspoons every 4 hours.",
-            "sideEffects": "May cause drowsiness.",
-            "manufacturer": "CoughEase Ltd.",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id4.jpg",
-            "alt": "A pack of vitamin C tablets",
-            "title": "Vitamin C Tablets",
-            "description": "Boosts immune system and overall health.",
-            "price": 10.99,
-            "id": 4,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "Rarely causes upset stomach.",
-            "manufacturer": "VitaHealth",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id5.jpg",
-            "alt": "A tube of antiseptic cream",
-            "title": "Antiseptic Cream",
-            "description": "Prevents infection in minor cuts and scrapes.",
-            "price": 5.49,
-            "id": 5,
-            "usage": "Apply to affected area 1-3 times daily.",
-            "sideEffects": "May cause mild skin irritation.",
-            "manufacturer": "SafeSkin",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id6.jpg",
-            "alt": "A bottle of antacid tablets",
-            "title": "Antacid Tablets",
-            "description": "Relieves heartburn and acid indigestion.",
-            "price": 6.99,
-            "id": 6,
-            "usage": "Chew 2-4 tablets as needed.",
-            "sideEffects": "May cause constipation or diarrhea.",
-            "manufacturer": "AcidEase",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id7.webp",
-            "alt": "A box of cold relief capsules",
-            "title": "Cold Relief Capsules",
-            "description": "Relieves symptoms of the common cold.",
-            "price": 9.99,
-            "id": 7,
-            "usage": "Take one capsule every 6 hours.",
-            "sideEffects": "May cause drowsiness or dizziness.",
-            "manufacturer": "ColdCure",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id8.jpg",
-            "alt": "A bottle of nasal spray",
-            "title": "Nasal Spray",
-            "description": "Clears nasal congestion and sinus pressure.",
-            "price": 7.99,
-            "id": 8,
-            "usage": "Use 2-3 sprays in each nostril as needed.",
-            "sideEffects": "May cause temporary burning or stinging.",
-            "manufacturer": "ClearNose",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id9.jpg",
-            "alt": "A bottle of eye drops",
-            "title": "Eye Drops",
-            "description": "Relieves dry and irritated eyes.",
-            "price": 4.99,
-            "id": 9,
-            "usage": "Instill 1-2 drops in each eye as needed.",
-            "sideEffects": "May cause temporary blurred vision.",
-            "manufacturer": "EyeRelief",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id10.jpg",
-            "alt": "A box of sleep aid tablets",
-            "title": "Sleep Aid Tablets",
-            "description": "Helps you fall asleep faster and stay asleep longer.",
-            "price": 11.99,
-            "id": 10,
-            "usage": "Take one tablet 30 minutes before bedtime.",
-            "sideEffects": "May cause drowsiness the next day.",
-            "manufacturer": "SleepWell",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id11.jpg",
-            "alt": "A bottle of digestive enzyme capsules",
-            "title": "Digestive Enzyme Capsules",
-            "description": "Supports healthy digestion and nutrient absorption.",
-            "price": 14.99,
-            "id": 11,
-            "usage": "Take one capsule with each meal.",
-            "sideEffects": "May cause mild stomach discomfort.",
-            "manufacturer": "DigestEase",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id12.webp",
-            "alt": "A bottle of probiotic supplements",
-            "title": "Probiotic Supplements",
-            "description": "Promotes a healthy gut flora and digestive health.",
-            "price": 18.99,
-            "id": 12,
-            "usage": "Take one capsule daily.",
-            "sideEffects": "May cause bloating or gas initially.",
-            "manufacturer": "ProBioHealth",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id13.jpg",
-            "alt": "A tube of anti-itch cream",
-            "title": "Anti-Itch Cream",
-            "description": "Relieves itching and skin irritation.",
-            "price": 6.49,
-            "id": 13,
-            "usage": "Apply to affected area 1-3 times daily.",
-            "sideEffects": "May cause mild skin irritation.",
-            "manufacturer": "ItchEase",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id14.jpg",
-            "alt": "A bottle of multivitamins",
-            "title": "Multivitamins",
-            "description": "Provides essential vitamins and minerals for overall health.",
-            "price": 16.99,
-            "id": 14,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "Rarely causes upset stomach.",
-            "manufacturer": "VitaPlus",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id15.jpg",
-            "alt": "A bottle of fish oil supplements",
-            "title": "Fish Oil Supplements",
-            "description": "Supports heart health and brain function.",
-            "price": 19.99,
-            "id": 15,
-            "usage": "Take one capsule daily.",
-            "sideEffects": "May cause fishy aftertaste or burps.",
-            "manufacturer": "OmegaHealth",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id16.jpg",
-            "alt": "A bottle of calcium supplements",
-            "title": "Calcium Supplements",
-            "description": "Supports bone health and prevents osteoporosis.",
-            "price": 13.99,
-            "id": 16,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "May cause constipation.",
-            "manufacturer": "BoneStrong",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id17.jpg",
-            "alt": "A bottle of iron supplements",
-            "title": "Iron Supplements",
-            "description": "Prevents and treats iron deficiency anemia.",
-            "price": 9.99,
-            "id": 17,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "May cause constipation or dark stools.",
-            "manufacturer": "IronBoost",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id18.jpg",
-            "alt": "A bottle of vitamin D supplements",
-            "title": "Vitamin D Supplements",
-            "description": "Supports bone health and immune function.",
-            "price": 8.99,
-            "id": 18,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "Rarely causes upset stomach.",
-            "manufacturer": "SunshineHealth",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id19.jpg",
-            "alt": "A bottle of zinc supplements",
-            "title": "Zinc Supplements",
-            "description": "Supports immune function and wound healing.",
-            "price": 7.99,
-            "id": 19,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "May cause nausea if taken on an empty stomach.",
-            "manufacturer": "ZincPlus",
-            "quantity": 1
-        },
-        {
-            "image": "./images/id20.jpg",
-            "alt": "A bottle of magnesium supplements",
-            "title": "Magnesium Supplements",
-            "description": "Supports muscle and nerve function.",
-            "price": 12.99,
-            "id": 20,
-            "usage": "Take one tablet daily.",
-            "sideEffects": "May cause diarrhea if taken in large amounts.",
-            "manufacturer": "MagnesiumHealth",
-            "quantity": 1
-        }
-    ],
-    "doctors": [
-        {
-            "id": 1,
-            "name": "Dr. John Smith",
-            "specialization": "Cardiology",
-            "about": "Dr. John Smith has over 15 years of experience in cardiology, specializing in heart disease and preventive care.",
-            "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
-            "location": "New York, NY"
-        },
-        {
-            "id": 2,
-            "name": "Dr. Emily Johnson",
-            "specialization": "Neurology",
-            "about": "Dr. Emily Johnson has 10 years of experience in neurology, focusing on neurological disorders and patient care.",
-            "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/555/small_2x/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
-            "location": "Los Angeles, CA"
-        },
-        {
-            "id": 3,
-            "name": "Dr. Michael Brown",
-            "specialization": "Orthopedics",
-            "about": "Dr. Michael Brown has 12 years of experience in orthopedics, specializing in bone and joint surgery.",
-            "img_src": "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg",
-            "location": "Chicago, IL"
-        },
-        {
-            "id": 4,
-            "name": "Dr. Sarah Davis",
-            "specialization": "Pediatrics",
-            "about": "Dr. Sarah Davis has 8 years of experience in pediatrics, providing comprehensive care for children.",
-            "img_src": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
-            "location": "Houston, TX"
-        },
-        {
-            "id": 5,
-            "name": "Dr. David Wilson",
-            "specialization": "Dermatology",
-            "about": "Dr. David Wilson has 14 years of experience in dermatology, specializing in skin care and treatment.",
-            "img_src": "https://cms-assets.bajajfinserv.in/is/image/bajajfinance/top-4-networking-platforms-that-doctors-must-be-present-on?scl=1",
-            "location": "Phoenix, AZ"
-        },
-        {
-            "id": 6,
-            "name": "Dr. Jessica Martinez",
-            "specialization": "Gynecology",
-            "about": "Dr. Jessica Martinez has 9 years of experience in gynecology, focusing on women's health and reproductive care.",
-            "img_src": "https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg",
-            "location": "Philadelphia, PA"
-        },
-        {
-            "id": 7,
-            "name": "Dr. Daniel Anderson",
-            "specialization": "Oncology",
-            "about": "Dr. Daniel Anderson has 11 years of experience in oncology, specializing in cancer treatment and research.",
-            "img_src": "https://t3.ftcdn.net/jpg/01/67/15/98/360_F_167159846_MCrwVzB7ysdZKr2vIiJkiCacEoNWagdn.jpg",
-            "location": "San Antonio, TX"
-        },
-        {
-            "id": 8,
-            "name": "Dr. Laura Thomas",
-            "specialization": "Ophthalmology",
-            "about": "Dr. Laura Thomas has 13 years of experience in ophthalmology, focusing on eye care and surgery.",
-            "img_src": "https://thumbs.dreamstime.com/b/confident-female-doctor-office-desk-sitting-smiling-camera-health-care-prevention-concept-56351853.jpg",
-            "location": "San Diego, CA"
-        },
-        {
-            "id": 9,
-            "name": "Dr. Robert Jackson",
-            "specialization": "Psychiatry",
-            "about": "Dr. Robert Jackson has 16 years of experience in psychiatry, specializing in mental health and therapy.",
-            "img_src": "https://img.freepik.com/free-photo/confident-indian-doctor-adjusting-glasses-while-using-smartphone_1262-14181.jpg",
-            "location": "Dallas, TX"
-        },
-        {
-            "id": 11,
-            "name": "Dr. James Harris",
-            "specialization": "Gastroenterology",
-            "about": "Dr. James Harris has 12 years of experience in gastroenterology, specializing in digestive system disorders.",
-            "img_src": "https://t4.ftcdn.net/jpg/02/20/30/45/360_F_220304581_3BRbk3UhoYrcVlt72fdBcVRHBtHAKuvD.jpg",
-            "location": "Austin, TX"
-        },
-        {
-            "id": 12,
-            "name": "Dr. Patricia Martin",
-            "specialization": "Rheumatology",
-            "about": "Dr. Patricia Martin has 9 years of experience in rheumatology, focusing on arthritis and autoimmune diseases.",
-            "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/384/small/a-mature-indian-male-doctor-on-a-white-background-ai-generated-photo.jpg",
-            "location": "Jacksonville, FL"
-        },
-        {
-            "id": 13,
-            "name": "Dr. Charles Lee",
-            "specialization": "Urology",
-            "about": "Dr. Charles Lee has 14 years of experience in urology, specializing in urinary tract and male reproductive health.",
-            "img_src": "https://t3.ftcdn.net/jpg/03/00/22/02/360_F_300220248_VKEd3QKx31kzqHcwZfnGmWKZLYTjf8R0.jpg",
-            "location": "Fort Worth, TX"
-        },
-        {
-            "id": 16,
-            "name": "Dr. Linda Allen",
-            "specialization": "Hematology",
-            "about": "Dr. Linda Allen has 10 years of experience in hematology, focusing on blood disorders and treatments.",
-            "img_src": "https://www.shutterstock.com/image-photo/healthcare-medical-staff-concept-portrait-600nw-2281024823.jpg",
-            "location": "San Francisco, CA"
-        },
-        {
-            "id": 17,
-            "name": "Dr. Kevin Young",
-            "specialization": "Immunology",
-            "about": "Dr. Kevin Young has 8 years of experience in immunology, specializing in immune system disorders.",
-            "img_src": "https://c8.alamy.com/comp/2C8REBR/confident-indian-female-doctor-wear-white-coat-looking-at-camera-at-work-2C8REBR.jpg",
-            "location": "Indianapolis, IN"
-        },
-        {
-            "id": 18,
-            "name": "Dr. Karen King",
-            "specialization": "Otolaryngology",
-            "about": "Dr. Karen King has 15 years of experience in otolaryngology, focusing on ear, nose, and throat disorders.",
-            "img_src": "https://st4.depositphotos.com/12985790/21800/i/450/depositphotos_218003704-stock-photo-smiling-young-female-doctor-medical.jpg",
-            "location": "Seattle, WA"
-        },
-        {
-            "id": 20,
-            "name": "Dr. Susan Scott",
-            "specialization": "Radiology",
-            "about": "Dr. Susan Scott has 11 years of experience in radiology, focusing on imaging and diagnostic techniques.",
-            "img_src": "https://assets.telegraphindia.com/telegraph/2023/Jul/1688199727_1.jpg",
-            "location": "Washington, DC"
-        },
-        {
-            "id": 21,
-            "name": "Dr. Mark Green",
-            "specialization": "Pathology",
-            "about": "Dr. Mark Green has 14 years of experience in pathology, specializing in disease diagnosis through laboratory analysis.",
-            "img_src": "https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yc3xlbnwwfHwwfHx8MA%3D%3D",
-            "location": "Boston, MA"
-        },
-        {
-            "id": 22,
-            "name": "Dr. Nancy Adams",
-            "specialization": "Allergy and Immunology",
-            "about": "Dr. Nancy Adams has 9 years of experience in allergy and immunology, focusing on allergic reactions and immune system disorders.",
-            "img_src": "https://cms-assets.bajajfinserv.in/is/image/bajajfinance/top-4-networking-platforms-that-doctors-must-be-present-on?scl=1",
-            "location": "El Paso, TX"
-        }
-    ],
-    "users": [
-        {
-            "id": "f375",
-            "name": "kk",
-            "email": "Kriti@gmail.com",
-            "password": "Kriti@231",
-            "confirmPassword": "Kriti@231"
-        }
-    ]
+  "medicines": [
+    {
+      "image": "./images/id1.jpg",
+      "alt": "A bottle of pain relief medicine",
+      "title": "Pain Relief Medicine",
+      "description": "Effective pain relief for headaches, muscle aches, and more.",
+      "price": 15.99,
+      "id": "1",
+      "usage": "Take one tablet every 4-6 hours as needed.",
+      "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
+      "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id2.jpg",
+      "alt": "A box of allergy relief tablets",
+      "title": "Allergy Relief Tablets",
+      "description": "Provides fast relief from allergy symptoms such as sneezing and runny nose.",
+      "price": 12.49,
+      "id": "2",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause dry mouth or drowsiness.",
+      "manufacturer": "AllergyFree Inc.",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id3.webp",
+      "alt": "A bottle of cough syrup",
+      "title": "Cough Syrup",
+      "description": "Soothes throat and relieves cough.",
+      "price": 8.99,
+      "id": "3",
+      "usage": "Take two teaspoons every 4 hours.",
+      "sideEffects": "May cause drowsiness.",
+      "manufacturer": "CoughEase Ltd.",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id4.jpg",
+      "alt": "A pack of vitamin C tablets",
+      "title": "Vitamin C Tablets",
+      "description": "Boosts immune system and overall health.",
+      "price": 10.99,
+      "id": "4",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "Rarely causes upset stomach.",
+      "manufacturer": "VitaHealth",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id5.jpg",
+      "alt": "A tube of antiseptic cream",
+      "title": "Antiseptic Cream",
+      "description": "Prevents infection in minor cuts and scrapes.",
+      "price": 5.49,
+      "id": "5",
+      "usage": "Apply to affected area 1-3 times daily.",
+      "sideEffects": "May cause mild skin irritation.",
+      "manufacturer": "SafeSkin",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id6.jpg",
+      "alt": "A bottle of antacid tablets",
+      "title": "Antacid Tablets",
+      "description": "Relieves heartburn and acid indigestion.",
+      "price": 6.99,
+      "id": "6",
+      "usage": "Chew 2-4 tablets as needed.",
+      "sideEffects": "May cause constipation or diarrhea.",
+      "manufacturer": "AcidEase",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id7.webp",
+      "alt": "A box of cold relief capsules",
+      "title": "Cold Relief Capsules",
+      "description": "Relieves symptoms of the common cold.",
+      "price": 9.99,
+      "id": "7",
+      "usage": "Take one capsule every 6 hours.",
+      "sideEffects": "May cause drowsiness or dizziness.",
+      "manufacturer": "ColdCure",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id8.jpg",
+      "alt": "A bottle of nasal spray",
+      "title": "Nasal Spray",
+      "description": "Clears nasal congestion and sinus pressure.",
+      "price": 7.99,
+      "id": "8",
+      "usage": "Use 2-3 sprays in each nostril as needed.",
+      "sideEffects": "May cause temporary burning or stinging.",
+      "manufacturer": "ClearNose",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id9.jpg",
+      "alt": "A bottle of eye drops",
+      "title": "Eye Drops",
+      "description": "Relieves dry and irritated eyes.",
+      "price": 4.99,
+      "id": "9",
+      "usage": "Instill 1-2 drops in each eye as needed.",
+      "sideEffects": "May cause temporary blurred vision.",
+      "manufacturer": "EyeRelief",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id10.jpg",
+      "alt": "A box of sleep aid tablets",
+      "title": "Sleep Aid Tablets",
+      "description": "Helps you fall asleep faster and stay asleep longer.",
+      "price": 11.99,
+      "id": "10",
+      "usage": "Take one tablet 30 minutes before bedtime.",
+      "sideEffects": "May cause drowsiness the next day.",
+      "manufacturer": "SleepWell",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id11.jpg",
+      "alt": "A bottle of digestive enzyme capsules",
+      "title": "Digestive Enzyme Capsules",
+      "description": "Supports healthy digestion and nutrient absorption.",
+      "price": 14.99,
+      "id": "11",
+      "usage": "Take one capsule with each meal.",
+      "sideEffects": "May cause mild stomach discomfort.",
+      "manufacturer": "DigestEase",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id12.webp",
+      "alt": "A bottle of probiotic supplements",
+      "title": "Probiotic Supplements",
+      "description": "Promotes a healthy gut flora and digestive health.",
+      "price": 18.99,
+      "id": "12",
+      "usage": "Take one capsule daily.",
+      "sideEffects": "May cause bloating or gas initially.",
+      "manufacturer": "ProBioHealth",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id13.jpg",
+      "alt": "A tube of anti-itch cream",
+      "title": "Anti-Itch Cream",
+      "description": "Relieves itching and skin irritation.",
+      "price": 6.49,
+      "id": "13",
+      "usage": "Apply to affected area 1-3 times daily.",
+      "sideEffects": "May cause mild skin irritation.",
+      "manufacturer": "ItchEase",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id14.jpg",
+      "alt": "A bottle of multivitamins",
+      "title": "Multivitamins",
+      "description": "Provides essential vitamins and minerals for overall health.",
+      "price": 16.99,
+      "id": "14",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "Rarely causes upset stomach.",
+      "manufacturer": "VitaPlus",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id15.jpg",
+      "alt": "A bottle of fish oil supplements",
+      "title": "Fish Oil Supplements",
+      "description": "Supports heart health and brain function.",
+      "price": 19.99,
+      "id": "15",
+      "usage": "Take one capsule daily.",
+      "sideEffects": "May cause fishy aftertaste or burps.",
+      "manufacturer": "OmegaHealth",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id16.jpg",
+      "alt": "A bottle of calcium supplements",
+      "title": "Calcium Supplements",
+      "description": "Supports bone health and prevents osteoporosis.",
+      "price": 13.99,
+      "id": "16",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause constipation.",
+      "manufacturer": "BoneStrong",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id17.jpg",
+      "alt": "A bottle of iron supplements",
+      "title": "Iron Supplements",
+      "description": "Prevents and treats iron deficiency anemia.",
+      "price": 9.99,
+      "id": "17",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause constipation or dark stools.",
+      "manufacturer": "IronBoost",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id18.jpg",
+      "alt": "A bottle of vitamin D supplements",
+      "title": "Vitamin D Supplements",
+      "description": "Supports bone health and immune function.",
+      "price": 8.99,
+      "id": "18",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "Rarely causes upset stomach.",
+      "manufacturer": "SunshineHealth",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id19.jpg",
+      "alt": "A bottle of zinc supplements",
+      "title": "Zinc Supplements",
+      "description": "Supports immune function and wound healing.",
+      "price": 7.99,
+      "id": "19",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause nausea if taken on an empty stomach.",
+      "manufacturer": "ZincPlus",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id20.jpg",
+      "alt": "A bottle of magnesium supplements",
+      "title": "Magnesium Supplements",
+      "description": "Supports muscle and nerve function.",
+      "price": 12.99,
+      "id": "20",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause diarrhea if taken in large amounts.",
+      "manufacturer": "MagnesiumHealth",
+      "quantity": 1
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. John Smith",
+      "specialization": "Cardiology",
+      "about": "Dr. John Smith has over 15 years of experience in cardiology, specializing in heart disease and preventive care.",
+      "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+      "location": "New York, NY"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Emily Johnson",
+      "specialization": "Neurology",
+      "about": "Dr. Emily Johnson has 10 years of experience in neurology, focusing on neurological disorders and patient care.",
+      "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/555/small_2x/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Michael Brown",
+      "specialization": "Orthopedics",
+      "about": "Dr. Michael Brown has 12 years of experience in orthopedics, specializing in bone and joint surgery.",
+      "img_src": "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg",
+      "location": "Chicago, IL"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Sarah Davis",
+      "specialization": "Pediatrics",
+      "about": "Dr. Sarah Davis has 8 years of experience in pediatrics, providing comprehensive care for children.",
+      "img_src": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg",
+      "location": "Houston, TX"
+    },
+    {
+      "id": "5",
+      "name": "Dr. David Wilson",
+      "specialization": "Dermatology",
+      "about": "Dr. David Wilson has 14 years of experience in dermatology, specializing in skin care and treatment.",
+      "img_src": "https://cms-assets.bajajfinserv.in/is/image/bajajfinance/top-4-networking-platforms-that-doctors-must-be-present-on?scl=1",
+      "location": "Phoenix, AZ"
+    },
+    {
+      "id": "6",
+      "name": "Dr. Jessica Martinez",
+      "specialization": "Gynecology",
+      "about": "Dr. Jessica Martinez has 9 years of experience in gynecology, focusing on women's health and reproductive care.",
+      "img_src": "https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg",
+      "location": "Philadelphia, PA"
+    },
+    {
+      "id": "7",
+      "name": "Dr. Daniel Anderson",
+      "specialization": "Oncology",
+      "about": "Dr. Daniel Anderson has 11 years of experience in oncology, specializing in cancer treatment and research.",
+      "img_src": "https://t3.ftcdn.net/jpg/01/67/15/98/360_F_167159846_MCrwVzB7ysdZKr2vIiJkiCacEoNWagdn.jpg",
+      "location": "San Antonio, TX"
+    },
+    {
+      "id": "8",
+      "name": "Dr. Laura Thomas",
+      "specialization": "Ophthalmology",
+      "about": "Dr. Laura Thomas has 13 years of experience in ophthalmology, focusing on eye care and surgery.",
+      "img_src": "https://thumbs.dreamstime.com/b/confident-female-doctor-office-desk-sitting-smiling-camera-health-care-prevention-concept-56351853.jpg",
+      "location": "San Diego, CA"
+    },
+    {
+      "id": "9",
+      "name": "Dr. Robert Jackson",
+      "specialization": "Psychiatry",
+      "about": "Dr. Robert Jackson has 16 years of experience in psychiatry, specializing in mental health and therapy.",
+      "img_src": "https://img.freepik.com/free-photo/confident-indian-doctor-adjusting-glasses-while-using-smartphone_1262-14181.jpg",
+      "location": "Dallas, TX"
+    },
+    {
+      "id": "11",
+      "name": "Dr. James Harris",
+      "specialization": "Gastroenterology",
+      "about": "Dr. James Harris has 12 years of experience in gastroenterology, specializing in digestive system disorders.",
+      "img_src": "https://t4.ftcdn.net/jpg/02/20/30/45/360_F_220304581_3BRbk3UhoYrcVlt72fdBcVRHBtHAKuvD.jpg",
+      "location": "Austin, TX"
+    },
+    {
+      "id": "12",
+      "name": "Dr. Patricia Martin",
+      "specialization": "Rheumatology",
+      "about": "Dr. Patricia Martin has 9 years of experience in rheumatology, focusing on arthritis and autoimmune diseases.",
+      "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/384/small/a-mature-indian-male-doctor-on-a-white-background-ai-generated-photo.jpg",
+      "location": "Jacksonville, FL"
+    },
+    {
+      "id": "13",
+      "name": "Dr. Charles Lee",
+      "specialization": "Urology",
+      "about": "Dr. Charles Lee has 14 years of experience in urology, specializing in urinary tract and male reproductive health.",
+      "img_src": "https://t3.ftcdn.net/jpg/03/00/22/02/360_F_300220248_VKEd3QKx31kzqHcwZfnGmWKZLYTjf8R0.jpg",
+      "location": "Fort Worth, TX"
+    },
+    {
+      "id": "16",
+      "name": "Dr. Linda Allen",
+      "specialization": "Hematology",
+      "about": "Dr. Linda Allen has 10 years of experience in hematology, focusing on blood disorders and treatments.",
+      "img_src": "https://www.shutterstock.com/image-photo/healthcare-medical-staff-concept-portrait-600nw-2281024823.jpg",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "17",
+      "name": "Dr. Kevin Young",
+      "specialization": "Immunology",
+      "about": "Dr. Kevin Young has 8 years of experience in immunology, specializing in immune system disorders.",
+      "img_src": "https://c8.alamy.com/comp/2C8REBR/confident-indian-female-doctor-wear-white-coat-looking-at-camera-at-work-2C8REBR.jpg",
+      "location": "Indianapolis, IN"
+    },
+    {
+      "id": "18",
+      "name": "Dr. Karen King",
+      "specialization": "Otolaryngology",
+      "about": "Dr. Karen King has 15 years of experience in otolaryngology, focusing on ear, nose, and throat disorders.",
+      "img_src": "https://st4.depositphotos.com/12985790/21800/i/450/depositphotos_218003704-stock-photo-smiling-young-female-doctor-medical.jpg",
+      "location": "Seattle, WA"
+    },
+    {
+      "id": "20",
+      "name": "Dr. Susan Scott",
+      "specialization": "Radiology",
+      "about": "Dr. Susan Scott has 11 years of experience in radiology, focusing on imaging and diagnostic techniques.",
+      "img_src": "https://assets.telegraphindia.com/telegraph/2023/Jul/1688199727_1.jpg",
+      "location": "Washington, DC"
+    },
+    {
+      "id": "21",
+      "name": "Dr. Mark Green",
+      "specialization": "Pathology",
+      "about": "Dr. Mark Green has 14 years of experience in pathology, specializing in disease diagnosis through laboratory analysis.",
+      "img_src": "https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yc3xlbnwwfHwwfHx8MA%3D%3D",
+      "location": "Boston, MA"
+    },
+    {
+      "id": "22",
+      "name": "Dr. Nancy Adams",
+      "specialization": "Allergy and Immunology",
+      "about": "Dr. Nancy Adams has 9 years of experience in allergy and immunology, focusing on allergic reactions and immune system disorders.",
+      "img_src": "https://cms-assets.bajajfinserv.in/is/image/bajajfinance/top-4-networking-platforms-that-doctors-must-be-present-on?scl=1",
+      "location": "El Paso, TX"
+    }
+  ],
+  "users": [
+    {
+      "id": "f375",
+      "name": "kk",
+      "email": "Kriti@gmail.com",
+      "password": "Kriti@231",
+      "confirmPassword": "Kriti@231"
+    },
+    {
+      "id": "77ae",
+      "name": "om prakash",
+      "email": "om@gmail.com",
+      "password": "Kriti@231",
+      "confirmPassword": "Kriti@231"
+    }
+  ]
 }

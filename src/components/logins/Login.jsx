@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import styles from "./Login.module.css";
 import { Link, useNavigate } from 'react-router-dom'
-const Login = () => {
+import { AuthContext } from '../../contexts/AuthContext'
 
+
+const Login = () => {
+  const { login } = useContext(AuthContext);
   const navigate = useNavigate();
   const [userdata, setuserdata] = useState([]);
   const [errors, setErrors] = useState({});
@@ -75,6 +78,7 @@ const Login = () => {
         user.email === input.email && user.password === input.password
       );
       if (user) {
+        login(user.email+user.password);
         console.log("Login successful");
         navigate("/");
 

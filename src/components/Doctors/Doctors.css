@@ -12,12 +12,12 @@
    overflow: hidden;
    cursor: pointer;
    width: 350px;
-   box-shadow: 3px 0px 3px rgb(136, 207, 219);
-   transition: transform 0.3s;
+   box-shadow: 2px 2px 0px #00B0FF;
+   transition: all 0.3s ease-in-out;
 }
 .card:hover{
     transform: scale(1.03);
-    box-shadow: 2px 2px 12px rgb(136, 207, 219);
+    box-shadow: 5px 5px 0px #00B0FF;
 }
 .card img{
     height: 230px;
@@ -58,13 +58,13 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: rgb(93, 178, 193);
+    background-color: #00B0FF;
     color: white;
     transition: transform .5s;
 }
 .appointment:hover{
     transform: scale(1.02);
-    background-color: rgb(33, 156, 177);
+    background-color: #00B0FF;
 }
 .main{
     padding: 10px;
@@ -75,10 +75,10 @@
 }
 .date-select{
     border: none;
-    background-color: rgb(209, 255, 255);
     width: 140px;
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid #00B0FF;
 }
 input::placeholder{
     font-size: 12px;

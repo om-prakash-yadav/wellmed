@@ -3,11 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import { IoCartOutline } from "react-icons/io5";
-import { CartContext} from '../../contexts/CartContext'
+import { CartContext } from '../../contexts/CartContext'
+import { AuthContext } from '../../contexts/AuthContext';
 
 const NavBar = () => {
   const navigate = useNavigate();
   const { cartItems } = useContext(CartContext);
+  const { isLoggedIn, login, logout } = useContext(AuthContext);
 
   const handleImageClick = () => {
     navigate('/');
@@ -45,18 +47,31 @@ const NavBar = () => {
             <button className="btn">
               <Link className='nav-link' to='/cart'>
                 <IoCartOutline color='#00B0FF' size={30} />
-                <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
+                {cartItems.length > 0 &&
+                  <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
+                }
               </Link>
             </button>
           </div>
-          <Link style={{
-            textDecoration: 'none'
-          }} to='/login'>
-            <div className="d-flex align-items-center start-container">
-              <button className="btn btn-outline-primary me-2 get-started ">GET STARTED</button>
-              <div className='back-div'></div>
-            </div>
-          </Link>
+          {
+            isLoggedIn ? (
+              <div className="d-flex align-items-center start-container">
+                <button onClick={()=> logout()} className="btn btn-danger text-white ">LogOut</button>
+              </div>
+
+            ) : (
+              <Link style={{
+                textDecoration: 'none'
+              }} to='/register'>
+
+                <div className="d-flex align-items-center start-container">
+                  <button className="btn btn-outline-primary me-2 get-started ">GET STARTED</button>
+                  <div className='back-div'></div>
+                </div>
+              </Link>
+            )
+          }
+
         </div>
       </div>
     </nav>

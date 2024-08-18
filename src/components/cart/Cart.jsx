@@ -41,12 +41,13 @@ const Cart = () => {
               onChange={(e) => handleQuantityChange(e, item.id)}
               className="cart-item-quantity"
             />
-            <button onClick={() => handleDelete(item.id)}>Delete</button>
+            <button className='btn btn-danger m-4' onClick={() => handleDelete(item.id)}>Delete</button>
           </div>
         </div>
       ))}
-      <div className="cart-total">
-        <h2>Total Price: ${calculateTotalPrice()}</h2>
+      <div className="cart-total d-flex justify-content-end align-items-center gap-4">
+        <h2 className='fs-3'>Total Price: ${calculateTotalPrice()}</h2>
+        <button className="btn-lg btn-success">Checkout</button>
       </div>
     </div>
   );
