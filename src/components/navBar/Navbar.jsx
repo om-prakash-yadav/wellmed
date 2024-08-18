@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import { IoCartOutline } from "react-icons/io5";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -37,6 +38,14 @@ const NavBar = () => {
               <Link className="nav-link" to="/blogs">Health Blogs</Link>
             </li>
           </ul>
+
+          <div className="d-flex align-items-center start-container">
+            <button  className="btn">
+              <Link className='nav-link' to='/cart'>
+              <IoCartOutline color='#00B0FF' size={30}/>
+              </Link>
+            </button>
+          </div>
           <div className="d-flex align-items-center start-container">
             <button className="btn btn-outline-primary me-2 get-started ">GET STARTED</button>
             <div className='back-div'></div>

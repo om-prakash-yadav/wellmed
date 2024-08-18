@@ -6,6 +6,7 @@ import Support from './components/Support/Support';
 import MediStore from './components/Medistore/MediStore'
 import Design from './components/Health_blog/health_blog';
 import Home from './components/Home/Home';
+import Cart from './components/cart/Cart'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/blogs' element={<Design />} />
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/store' element={<MediStore />} />
+        <Route path='/cart' element={<Cart />} />
 
       </Routes>
     </div>
