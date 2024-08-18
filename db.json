@@ -14,7 +14,7 @@
             
         },
         {
-            "image": "./assets/images/medicine2.png",
+            "image": "./images/id2.jpg",
             "alt": "A box of allergy relief tablets",
             "title": "Allergy Relief Tablets",
             "description": "Provides fast relief from allergy symptoms such as sneezing and runny nose.",
@@ -26,7 +26,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine3.png",
+            "image": "./images/id3.webp",
             "alt": "A bottle of cough syrup",
             "title": "Cough Syrup",
             "description": "Soothes throat and relieves cough.",
@@ -38,7 +38,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine4.png",
+            "image": "./images/id4.jpg",
             "alt": "A pack of vitamin C tablets",
             "title": "Vitamin C Tablets",
             "description": "Boosts immune system and overall health.",
@@ -50,7 +50,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine5.png",
+            "image": "./images/id5.jpg",
             "alt": "A tube of antiseptic cream",
             "title": "Antiseptic Cream",
             "description": "Prevents infection in minor cuts and scrapes.",
@@ -62,7 +62,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine6.png",
+            "image": "./images/id6.jpg",
             "alt": "A bottle of antacid tablets",
             "title": "Antacid Tablets",
             "description": "Relieves heartburn and acid indigestion.",
@@ -74,7 +74,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine7.png",
+            "image": "./images/id7.webp",
             "alt": "A box of cold relief capsules",
             "title": "Cold Relief Capsules",
             "description": "Relieves symptoms of the common cold.",
@@ -86,7 +86,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine8.png",
+            "image": "./images/id8.jpg",
             "alt": "A bottle of nasal spray",
             "title": "Nasal Spray",
             "description": "Clears nasal congestion and sinus pressure.",
@@ -98,7 +98,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine9.png",
+            "image": "./images/id9.jpg",
             "alt": "A bottle of eye drops",
             "title": "Eye Drops",
             "description": "Relieves dry and irritated eyes.",
@@ -110,7 +110,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine10.png",
+            "image": "./images/id10.jpg",
             "alt": "A box of sleep aid tablets",
             "title": "Sleep Aid Tablets",
             "description": "Helps you fall asleep faster and stay asleep longer.",
@@ -122,7 +122,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine11.png",
+            "image": "./images/id11.jpg",
             "alt": "A bottle of digestive enzyme capsules",
             "title": "Digestive Enzyme Capsules",
             "description": "Supports healthy digestion and nutrient absorption.",
@@ -134,7 +134,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine12.png",
+            "image": "./images/id12.webp",
             "alt": "A bottle of probiotic supplements",
             "title": "Probiotic Supplements",
             "description": "Promotes a healthy gut flora and digestive health.",
@@ -146,7 +146,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine13.png",
+            "image": "./images/id13.jpg",
             "alt": "A tube of anti-itch cream",
             "title": "Anti-Itch Cream",
             "description": "Relieves itching and skin irritation.",
@@ -158,7 +158,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine14.png",
+            "image": "./images/id14.jpg",
             "alt": "A bottle of multivitamins",
             "title": "Multivitamins",
             "description": "Provides essential vitamins and minerals for overall health.",
@@ -170,7 +170,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine15.png",
+            "image": "./images/id15.jpg",
             "alt": "A bottle of fish oil supplements",
             "title": "Fish Oil Supplements",
             "description": "Supports heart health and brain function.",
@@ -182,7 +182,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine16.png",
+            "image": "./images/id16.jpg",
             "alt": "A bottle of calcium supplements",
             "title": "Calcium Supplements",
             "description": "Supports bone health and prevents osteoporosis.",
@@ -194,7 +194,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine17.png",
+            "image": "./images/id17.jpg",
             "alt": "A bottle of iron supplements",
             "title": "Iron Supplements",
             "description": "Prevents and treats iron deficiency anemia.",
@@ -206,7 +206,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine18.png",
+            "image": "./images/id18.jpg",
             "alt": "A bottle of vitamin D supplements",
             "title": "Vitamin D Supplements",
             "description": "Supports bone health and immune function.",
@@ -218,7 +218,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine19.png",
+            "image": "./images/id19.jpg",
             "alt": "A bottle of zinc supplements",
             "title": "Zinc Supplements",
             "description": "Supports immune function and wound healing.",
@@ -230,7 +230,7 @@
             "quantity":1
         },
         {
-            "image": "./assets/images/medicine20.png",
+            "image": "./images/id20.jpg",
             "alt": "A bottle of magnesium supplements",
             "title": "Magnesium Supplements",
             "description": "Supports muscle and nerve function.",
@@ -320,7 +320,7 @@
             "name": "Dr. Mary White",
             "specialization": "Endocrinology",
             "about": "Dr. Mary White has 10 years of experience in endocrinology, focusing on hormonal disorders and diabetes care.",
-            "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJZ7Y5xqtFhk6Gk_2sswoEmJ4ikz0D7WMqw&s",
+            "img_src": "https://encrypted-tbn0.gstatimages/idd9GcRQJZ7Y5xqtFhk6Gk_2sswoEmJ4ikz0D7WMqw&s",
             "location": "San Jose, CA"
         },
         {
@@ -352,7 +352,7 @@
             "name": "Dr. Barbara Walker",
             "specialization": "Pulmonology",
             "about": "Dr. Barbara Walker has 11 years of experience in pulmonology, focusing on lung and respiratory disorders.",
-            "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsd3FrSGcTJIaB4uK_7HG_zSQuJbF56nnvWA&s",
+            "img_src": "https://encrypted-tbn0.gstatimages/idd9GcRsd3FrSGcTJIaB4uK_7HG_zSQuJbF56nnvWA&s",
             "location": "Columbus, OH"
         },
         {
@@ -360,7 +360,7 @@
             "name": "Dr. Steven Hall",
             "specialization": "Nephrology",
             "about": "Dr. Steven Hall has 13 years of experience in nephrology, specializing in kidney care and treatment.",
-            "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0eoZlUCzEB6yWF4FRgAWt5OjRVhUVdpFhQ&s",
+            "img_src": "https://encrypted-tbn0.gstatimages/idd9GcQf0eoZlUCzEB6yWF4FRgAWt5OjRVhUVdpFhQ&s",
             "location": "Charlotte, NC"
         },
         {
@@ -392,7 +392,7 @@
             "name": "Dr. Brian Wright",
             "specialization": "Anesthesiology",
             "about": "Dr. Brian Wright has 12 years of experience in anesthesiology, specializing in pain management and anesthesia.",
-            "img_src": "https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip",
+            "img_src": "himages/idrsation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip",
             "location": "Denver, CO"
         },
         {
