@@ -1,18 +1,19 @@
-.title{
+.title {
   font-size: 50px;
   margin-top: 40px;
 }
-.subtitle{
+
+.subtitle {
   font-size: 15px;
 }
 
-.services{
+.services {
   background-color: aliceblue;
   text-align: center;
   padding: 10px;
-  
 }
- .services .text {
+
+.services .text {
   margin: 20px 0px;
   background-color: #fff;
 }
@@ -21,22 +22,23 @@
   position: relative;
   z-index: 1; /* Ensure the container has a lower z-index */
   cursor: pointer;
+  margin-top: 20px;
 }
 
-.card-body {
+.cardBody {
   background-color: white;
   color: #00B0FF;
   z-index: 10;
   transition: all 0.3s ease;
   font-size: 14px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 15px;
   width: 280px;
   height: 300px;
   position: relative; /* Ensure it remains positioned */
 }
 
-.back-card {
+.backCard {
   width: 280px;
   height: 300px;
   background-color: #00B0FF;
@@ -50,30 +52,37 @@
   transition: transform 0.5s ease; /* Add transition for smooth effect */
 }
 
-.card-img-top {
-  width: 60px;
-  height: 60px;
-  margin-top: 25px;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
 .flex {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.card-text {
+.cardText {
   padding: 25px;
   padding-left: 30px;
 }
 
-.cards:hover .back-card {
+.cards:hover .backCard {
   transform: rotate(4deg); /* Tilt back on hover */
 }
 
-.cards:hover .card-body {
+.cards:hover .cardBody {
   z-index: 10; /* Ensure the card-body maintains a higher z-index */
   transform: scale(1.02);
+}
+
+/* Slick carousel styles */
+.slick-prev:before, .slick-next:before {
+  color: #00B0FF;
+}
+
+.slick-dots li button:before {
+  color: #00B0FF;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
