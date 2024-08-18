@@ -40,16 +40,21 @@ const NavBar = () => {
           </ul>
 
           <div className="d-flex align-items-center start-container">
-            <button  className="btn">
+            <button className="btn">
               <Link className='nav-link' to='/cart'>
-              <IoCartOutline color='#00B0FF' size={30}/>
+                <IoCartOutline color='#00B0FF' size={30} />
+                <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>4</span>
               </Link>
             </button>
           </div>
-          <div className="d-flex align-items-center start-container">
-            <button className="btn btn-outline-primary me-2 get-started ">GET STARTED</button>
-            <div className='back-div'></div>
-          </div>
+          <Link style={{
+            textDecoration: 'none'
+          }} to='/login'>
+            <div className="d-flex align-items-center start-container">
+              <button className="btn btn-outline-primary me-2 get-started ">GET STARTED</button>
+              <div className='back-div'></div>
+            </div>
+          </Link>
         </div>
       </div>
     </nav>
