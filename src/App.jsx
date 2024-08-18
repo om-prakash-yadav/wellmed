@@ -6,7 +6,8 @@ import Doctors from './components/Doctors/Doctors';
 import Support from './components/Support/Support';
 import MediStore from './components/Medistore/MediStore'
 import Design from './components/Health_blog/health_blog';
-import Home from './components/Home/Home'
+import Home from './components/Home/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
