@@ -9,7 +9,7 @@ import { AuthContext } from '../../contexts/AuthContext';
 const NavBar = () => {
   const navigate = useNavigate();
   const { cartItems } = useContext(CartContext);
-  const { isLoggedIn, login, logout } = useContext(AuthContext);
+  const { isLoggedIn,  logout } = useContext(AuthContext);
 
   const handleImageClick = () => {
     navigate('/');

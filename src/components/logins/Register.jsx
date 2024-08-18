@@ -4,7 +4,6 @@ import axios from 'axios';
 import styles from './Register.module.css';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import './background.css'
 const Register = () => {
 
     const navigate = useNavigate();
@@ -156,20 +155,6 @@ const Register = () => {
                     </div>
                 </div>
             </div>
-
-            <ul className="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-
         </div>
     )
 }
