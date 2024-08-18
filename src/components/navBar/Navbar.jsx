@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import { IoCartOutline } from "react-icons/io5";
+import { CartContext} from '../../contexts/CartContext'
 
 const NavBar = () => {
   const navigate = useNavigate();
+  const { cartItems } = useContext(CartContext);
 
   const handleImageClick = () => {
     navigate('/');
@@ -43,7 +45,7 @@ const NavBar = () => {
             <button className="btn">
               <Link className='nav-link' to='/cart'>
                 <IoCartOutline color='#00B0FF' size={30} />
-                <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>4</span>
+                <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
               </Link>
             </button>
           </div>
