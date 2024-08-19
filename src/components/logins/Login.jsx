@@ -78,7 +78,7 @@ const Login = () => {
         user.email === input.email && user.password === input.password
       );
       if (user) {
-        login(user.email+user.password);
+        login(user.id);
         console.log("Login successful");
         navigate("/");
 

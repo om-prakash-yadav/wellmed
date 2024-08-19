@@ -11,7 +11,8 @@ const Register = () => {
         name: "",
         email: "",
         password: "",
-        confirmPassword: ""
+        confirmPassword: "",
+        appointment:[]
     });
     const [userdata, setUserdata] = useState([]);
     const [errors, setErrors] = useState({});
@@ -89,10 +90,8 @@ const Register = () => {
             if (emailExists) {
                 alert("This email is already registered!");
             } else {
-                await axios.post('http://localhost:3000/users', input)
+                let res=await axios.post('http://localhost:3000/users', input)
                 alert("You are registered successfully!");
-                setUserdata([...userdata, input]);
-                localStorage.setItem("user", JSON.stringify(input));
                 navigate("/login")
             }
         } else {
