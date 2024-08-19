@@ -2,11 +2,13 @@ import React, { useContext, useEffect, useState } from 'react';
 import axios from "axios";
 import './Medistore.css'
 import { CartContext } from '../../contexts/CartContext';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const MediStore = () => {
   const [products, setProducts] = useState([]);
   const { cartItems, addToCart } = useContext(CartContext);
-
+  const notify = () => toast.success(`Product added to cart`);
   useEffect(() => {
     axios.get('http://localhost:3000/medicines')
       .then(response => {
@@ -22,6 +24,10 @@ const MediStore = () => {
     if (!isalready) {
       await axios.post(`http://localhost:3000/cartitems`, JSON.stringify(product));
       addToCart(product);
+      notify();
+    }
+    else {
+      toast.error("Item already in your cart");
     }
 
   }
@@ -50,6 +56,7 @@ const MediStore = () => {
           </div>
         ))}
       </div>
+      <ToastContainer />
     </div>
   );
 }
