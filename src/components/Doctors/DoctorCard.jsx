@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './Doctors.css';
 import { IoLocationSharp } from "react-icons/io5";
 
-const DoctorCard = ({item,index}) => {
+const DoctorCard = ({item,index, notify}) => {
   const [date,setDate]=useState('');
   const add=()=>{
-    
+    notify(date);
   }
     return (
         <div>
