@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import './cart.css';
 import { CartContext } from '../../contexts/CartContext';
 import axios from 'axios'; // If using axios
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const { cartItems, setCartItems } = useContext(CartContext);
@@ -70,10 +71,13 @@ const Cart = () => {
           ))}
           <div className="cart-total d-flex justify-content-end align-items-center gap-4">
             <h2 className='fs-3'>Total Price: ${calculateTotalPrice()}</h2>
-            <button className="btn-lg btn-success">Checkout</button>
+            <button className="btn-lg btn-success">
+              <Link style={{textDecoration:'none', color:'#fff'}} to="/checkout">
+              Checkout
+              </Link></button>
           </div>
         </div>) : (
-          <div style={{marginTop:'100px'}} className="container d-flex  justify-content-center align-items-center">
+          <div style={{marginTop:'100px', height:'40vh'}} className="container d-flex  justify-content-center align-items-center">
             <h1>Cart is Empty </h1></div>
         )
       }

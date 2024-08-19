@@ -14,6 +14,7 @@ import Register from './components/logins/Register';
 import { CartProvider } from './contexts/CartContext';
 import { AuthProvider } from './contexts/AuthContext';
 import Footer from './components/footer/Footer'
+import Checkout from './components/Checkout/checkout'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
 
             <Route path='/register' element={<Register />} />
             <Route path='/login' element={<Login />} />
+            <Route path='/checkout' element={<Checkout />} />
           </Routes>
           <Footer/>
         </div>
