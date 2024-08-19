@@ -5,6 +5,7 @@ import { CartContext } from '../../contexts/CartContext';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaSearch, FaSortAmountDown, FaSortAmountUp } from 'react-icons/fa';
+import { AuthContext } from '../../contexts/AuthContext';
 
 const MediStore = () => {
   const [products, setProducts] = useState([]);
@@ -12,6 +13,7 @@ const MediStore = () => {
   const [sortOrder, setSortOrder] = useState('');
   const { cartItems, addToCart } = useContext(CartContext);
   const notify = () => toast.success(`Product added to cart`);
+  const { isLoggedIn } = useContext(AuthContext);
 
   useEffect(() => {
     axios.get('http://localhost:3000/medicines')
@@ -24,14 +26,20 @@ const MediStore = () => {
   }, []);
 
   const addItemsToCart = async (product) => {
-    let isalready = cartItems.some((prod) => prod.id === product.id);
-    if (!isalready) {
-      await axios.post(`http://localhost:3000/cartitems`, JSON.stringify(product));
-      addToCart(product);
-      notify();
-    } else {
-      toast.error("Item already in your cart");
+    if (isLoggedIn) {
+      let isalready = cartItems.some((prod) => prod.id === product.id);
+      if (!isalready) {
+        await axios.post(`http://localhost:3000/cartitems`, JSON.stringify(product));
+        addToCart(product);
+        notify();
+      } else {
+        toast.error("Item already in your cart");
+      }
     }
+    else {
+      toast.error("Please login first 😑")
+    }
+
   }
 
   const filteredProducts = products
@@ -48,7 +56,7 @@ const MediStore = () => {
 
   return (
     <div className="container-fluid">
-      <h1 style={{marginTop:'30px'}} className='text-center bg-white '>Our Medicines</h1>
+      <h1 style={{ marginTop: '30px' }} className='text-center bg-white '>Our Medicines</h1>
 
       <div className="filter-container">
         <input

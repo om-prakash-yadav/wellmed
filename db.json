@@ -405,6 +405,30 @@
   ],
   "cartitems": [
     {
+      "image": "./images/id2.jpg",
+      "alt": "A box of allergy relief tablets",
+      "title": "Allergy Relief Tablets",
+      "description": "Provides fast relief from allergy symptoms such as sneezing and runny nose.",
+      "price": 12.49,
+      "id": "2",
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause dry mouth or drowsiness.",
+      "manufacturer": "AllergyFree Inc.",
+      "quantity": 4
+    },
+    {
+      "image": "./images/id1.jpg",
+      "alt": "A bottle of pain relief medicine",
+      "title": "Pain Relief Medicine",
+      "description": "Effective pain relief for headaches, muscle aches, and more.",
+      "price": 15.99,
+      "id": "1",
+      "usage": "Take one tablet every 4-6 hours as needed.",
+      "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
+      "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 4
+    },
+    {
       "id": "1",
       "image": "./images/id1.jpg",
       "alt": "A bottle of pain relief medicine",
@@ -414,6 +438,30 @@
       "usage": "Take one tablet every 4-6 hours as needed.",
       "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
       "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 1
+    },
+    {
+      "id": "1",
+      "image": "./images/id1.jpg",
+      "alt": "A bottle of pain relief medicine",
+      "title": "Pain Relief Medicine",
+      "description": "Effective pain relief for headaches, muscle aches, and more.",
+      "price": 15.99,
+      "usage": "Take one tablet every 4-6 hours as needed.",
+      "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
+      "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "image": "./images/id3.webp",
+      "alt": "A bottle of cough syrup",
+      "title": "Cough Syrup",
+      "description": "Soothes throat and relieves cough.",
+      "price": 8.99,
+      "usage": "Take two teaspoons every 4 hours.",
+      "sideEffects": "May cause drowsiness.",
+      "manufacturer": "CoughEase Ltd.",
       "quantity": 1
     },
     {

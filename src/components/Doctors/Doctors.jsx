@@ -1,12 +1,14 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './Doctors.css'
 import DoctorCard from './DoctorCard';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { AuthContext } from '../../contexts/AuthContext';
 
 const Doctors = () => {
   const [data, setData] = useState([]);
+  const { isLoggedIn } = useContext(AuthContext);
   useEffect(() => {
     axios.get(' http://localhost:3000/doctors')
       .then((value) => {
@@ -14,7 +16,19 @@ const Doctors = () => {
       })
   }, []);
 
-  const notify = (date) => toast(`Your Appointment has been sheduled on ${date}`);
+  const notify = (date) => {
+    if(isLoggedIn){
+      if(date)
+        toast(`Your Appointment has been sheduled on ${date}`);
+      else {
+        toast.error("Please select date first")
+      }
+    }
+    else {
+      toast.error("Please Login First")
+    }
+   
+  }
   return (
     <div>
       <div className='header'>

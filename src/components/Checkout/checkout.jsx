@@ -1,6 +1,7 @@
 import React from 'react'
 import './checkout.css'
 import Hero from '../../assets/Images/banner1.png'
+import { toast, ToastContainer } from 'react-toastify'
 const Checkout = () => {
     return (
         <div class="mainscreen">
@@ -10,7 +11,10 @@ const Checkout = () => {
                         alt="Shoes" />
                 </div>
                 <div class="rightside">
-                    <form action="">
+                    <form action=""  onSubmit={() => {
+                            
+                            toast.success("Payemnt Successful!, Your order has been recieved");
+                        }}>
                         <p>Cardholder Name</p>
                         <input type="text" class="inputbox form-control" name="name" required />
                         <p>Card Number</p>
@@ -32,10 +36,11 @@ const Checkout = () => {
                             <input type="password" class="inputbox form-control" name="cvv" id="cvv" required />
                         </div>
                         <p></p>
-                        <button type="submit" class="button">CheckOut</button>
+                        <button  type="submit" class="button">CheckOut</button>
                     </form>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     )
 }
