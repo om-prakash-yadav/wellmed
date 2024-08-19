@@ -35,9 +35,9 @@ const NavBar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/store">MediStore</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/support">Support</Link>
-            </li> */}
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">About Us</Link>
+            </li>
             {/* <li className="nav-item">
               <Link className="nav-link" to="/blogs">Health Blogs</Link>
             </li> */}

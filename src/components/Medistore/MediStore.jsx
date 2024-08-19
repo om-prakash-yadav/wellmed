@@ -28,7 +28,7 @@ const MediStore = () => {
 
   return (
     <div className="container-fluid">
-      <h1 className='text-center bg-white'>Our Medicines</h1>
+      <h1 className='text-center bg-white mt-6 p-6'>Our Medicines</h1>
 
       <div className="product-container">
 
