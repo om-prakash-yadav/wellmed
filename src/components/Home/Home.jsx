@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Home.module.css';
 import Service from '../Services/Service';
 import Banner from '../../assets/Images/banner1.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -11,7 +12,9 @@ function Home() {
           <div className={styles.heroContent}>
             <h1>Wellness and Medicines at your fingertips</h1>
             <p>Your satisfaction is our priority.</p>
-            <button className={`btn btn-primary ${styles.appointmentBtn}`}>Book an Appointment</button>
+            <Link to="/doctors" style={{textDecoration:'none' , color:'#fff'}}>
+              <button className={`btn btn-primary ${styles.appointmentBtn}`}>Book an Appointment</button>
+            </Link>
           </div>
         </div>
         <div className="col-md-6">
