@@ -9,7 +9,7 @@ import { AuthContext } from '../../contexts/AuthContext';
 const NavBar = () => {
   const navigate = useNavigate();
   const { cartItems } = useContext(CartContext);
-  const { isLoggedIn,  logout } = useContext(AuthContext);
+  const { isLoggedIn, logout } = useContext(AuthContext);
 
   const handleImageClick = () => {
     navigate('/');
@@ -42,21 +42,23 @@ const NavBar = () => {
               <Link className="nav-link" to="/blogs">Health Blogs</Link>
             </li>
           </ul>
+          {
+            isLoggedIn && <div className="d-flex align-items-center start-container">
+              <button className="btn">
+                <Link className='nav-link' to='/cart'>
+                  <IoCartOutline color='#00B0FF' size={30} />
+                  {cartItems.length > 0 &&
+                    <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
+                  }
+                </Link>
+              </button>
+            </div>
+          }
 
-          <div className="d-flex align-items-center start-container">
-            <button className="btn">
-              <Link className='nav-link' to='/cart'>
-                <IoCartOutline color='#00B0FF' size={30} />
-                {cartItems.length > 0 &&
-                  <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
-                }
-              </Link>
-            </button>
-          </div>
           {
             isLoggedIn ? (
               <div className="d-flex align-items-center start-container">
-                <button onClick={()=> logout()} className="btn btn-danger text-white ">LogOut</button>
+                <button onClick={() => logout()} className="btn btn-danger text-white ">LogOut</button>
               </div>
 
             ) : (

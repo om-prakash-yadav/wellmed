@@ -5,7 +5,7 @@ import { CartContext } from '../../contexts/CartContext';
 
 const MediStore = () => {
   const [products, setProducts] = useState([]);
-  const { addToCart } = useContext(CartContext);
+  const { cartItems, addToCart } = useContext(CartContext);
 
   useEffect(() => {
     axios.get('http://localhost:3000/medicines')
@@ -16,6 +16,15 @@ const MediStore = () => {
         console.error('There was an error fetching the data!', error);
       });
   }, []);
+
+  const addItemsToCart = async (product) => {
+    let isalready = cartItems.some((prod) => prod.id === product.id);
+    if (!isalready) {
+      await axios.post(`http://localhost:3000/cartitems`, JSON.stringify(product));
+      addToCart(product);
+    }
+
+  }
 
   return (
     <div className="container-fluid">
@@ -33,7 +42,7 @@ const MediStore = () => {
               <p>{product.description}</p>
               <div className="price-add">
                 <span className="price">${product.price}</span>
-                <button onClick={() => addToCart(product)} className="add-to-cart">
+                <button onClick={() => addItemsToCart(product)} className="add-to-cart">
                   <span><i className="fa fa-shopping-cart"></i></span> Add to cart
                 </button>
               </div>
