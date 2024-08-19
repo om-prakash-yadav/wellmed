@@ -5,6 +5,7 @@ import './NavBar.css';
 import { IoCartOutline } from "react-icons/io5";
 import { CartContext } from '../../contexts/CartContext'
 import { AuthContext } from '../../contexts/AuthContext';
+import { FaArchive } from "react-icons/fa";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -42,7 +43,14 @@ const NavBar = () => {
               <Link className="nav-link" to="/blogs">Health Blogs</Link>
             </li> */}
           </ul>
+
+          <button className="btn">
+                <Link className='nav-link' to='/service'>
+                  <FaArchive color='#00B0FF' size={30} />
+                </Link>
+          </button>
           {
+           
             isLoggedIn && <div className="d-flex align-items-center start-container">
               <button className="btn">
                 <Link className='nav-link' to='/cart'>

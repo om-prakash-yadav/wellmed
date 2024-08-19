@@ -1,0 +1,45 @@
+.service{
+  font-family: Arial, sans-serif;
+  background-color: #eceaea;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(2, 139, 181);
+  font-weight: 800;
+}
+
+.servicewrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.servicecontainer {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicecontainer img {
+  max-width: 200px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.serviceinfo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+

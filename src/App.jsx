@@ -15,6 +15,7 @@ import { CartProvider } from './contexts/CartContext';
 import { AuthProvider } from './contexts/AuthContext';
 import Footer from './components/footer/Footer'
 import Checkout from './components/Checkout/checkout'
+import Service from './components/Doctors/Service';
 
 const App = () => {
   return (
@@ -33,6 +34,8 @@ const App = () => {
             <Route path='/register' element={<Register />} />
             <Route path='/login' element={<Login />} />
             <Route path='/checkout' element={<Checkout />} />
+
+            <Route path='/service' element={<Service/>}/>
           </Routes>
           <Footer/>
         </div>

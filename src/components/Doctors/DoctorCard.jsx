@@ -4,6 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import axios from 'axios';
 import { AuthContext } from '../../contexts/AuthContext';
 
+
 const DoctorCard = ({ loading, item, index, notify }) => {
     const { userid } = useContext(AuthContext);
     const [data, setData] = useState(null);
@@ -21,7 +22,7 @@ const DoctorCard = ({ loading, item, index, notify }) => {
     const [date, setDate] = useState('');
     const add = () => {
         notify(item.name, date);
-        const userAppointment = { userId: userid, name: item.name, date: date };
+        const userAppointment = {...item, userId: userid,date:date};
         const newData = { ...data, appointment: [...data.appointment, userAppointment] };
         axios.put(`http://localhost:3000/users/${userid}`, newData)
             .then((res) => console.log(res.data));

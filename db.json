@@ -388,9 +388,107 @@
     }
   ],
   "users": [
-   
+    {
+      "id": "19f3",
+      "name": "abhishek",
+      "email": "a@gmail.com",
+      "password": "Abhi@123",
+      "confirmPassword": "Abhi@123",
+      "appointment": [
+        {
+          "userId": "19f3",
+          "name": "Dr. John Smith",
+          "date": "2024-08-22"
+        },
+        {
+          "userId": "19f3",
+          "name": "Dr. John Smith",
+          "date": "2024-08-29"
+        },
+        {
+          "userId": "19f3",
+          "name": "Dr. John Smith",
+          "date": "2024-08-29"
+        },
+        {
+          "userId": "19f3",
+          "name": "Dr. John Smith",
+          "date": "2024-08-30"
+        },
+        {
+          "id": "2",
+          "name": "Dr. Emily Johnson",
+          "specialization": "Neurology",
+          "about": "Dr. Emily Johnson has 10 years of experience in neurology, focusing on neurological disorders and patient care.",
+          "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/555/small_2x/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
+          "location": "Los Angeles, CA",
+          "userId": "19f3"
+        }
+      ]
+    },
+    {
+      "id": "222b",
+      "name": "kriti",
+      "email": "k@gmail.com",
+      "password": "Kriti@999",
+      "confirmPassword": "Kriti@999",
+      "appointment": [
+        {
+          "id": "1",
+          "name": "Dr. John Smith",
+          "specialization": "Cardiology",
+          "about": "Dr. John Smith has over 15 years of experience in cardiology, specializing in heart disease and preventive care.",
+          "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+          "location": "New York, NY",
+          "userId": "222b"
+        },
+        {
+          "id": "2",
+          "name": "Dr. Emily Johnson",
+          "specialization": "Neurology",
+          "about": "Dr. Emily Johnson has 10 years of experience in neurology, focusing on neurological disorders and patient care.",
+          "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/555/small_2x/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
+          "location": "Los Angeles, CA",
+          "userId": "222b",
+          "date": "2024-08-28"
+        },
+        {
+          "userId": "222b",
+          "name": "Dr. Michael Brown",
+          "date": "2024-08-29"
+        },
+        {
+          "userId": "222b",
+          "name": "Dr. John Smith",
+          "date": "2024-08-28"
+        }
+      ]
+    }
   ],
   "cartitems": [
-   
+    {
+      "id": "2",
+      "image": "./images/id2.jpg",
+      "alt": "A box of allergy relief tablets",
+      "title": "Allergy Relief Tablets",
+      "description": "Provides fast relief from allergy symptoms such as sneezing and runny nose.",
+      "price": 12.49,
+      "usage": "Take one tablet daily.",
+      "sideEffects": "May cause dry mouth or drowsiness.",
+      "manufacturer": "AllergyFree Inc.",
+      "quantity": 1
+    },
+    {
+      "id": "1",
+      "image": "./images/id1.jpg",
+      "alt": "A bottle of pain relief medicine",
+      "title": "Pain Relief Medicine",
+      "description": "Effective pain relief for headaches, muscle aches, and more.",
+      "price": 15.99,
+      "usage": "Take one tablet every 4-6 hours as needed.",
+      "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
+      "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 1
+    }
   ]
 }
