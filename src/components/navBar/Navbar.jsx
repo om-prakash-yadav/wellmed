@@ -44,23 +44,26 @@ const NavBar = () => {
             </li> */}
           </ul>
 
-          <button className="btn">
+
+          {
+
+            isLoggedIn && <>
+              <button className="btn">
                 <Link className='nav-link' to='/service'>
                   <FaArchive color='#00B0FF' size={30} />
                 </Link>
-          </button>
-          {
-           
-            isLoggedIn && <div className="d-flex align-items-center start-container">
-              <button className="btn">
-                <Link className='nav-link' to='/cart'>
-                  <IoCartOutline color='#00B0FF' size={30} />
-                  {cartItems.length > 0 &&
-                    <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
-                  }
-                </Link>
               </button>
-            </div>
+              <div className="d-flex align-items-center start-container">
+                <button className="btn">
+                  <Link className='nav-link' to='/cart'>
+                    <IoCartOutline color='#00B0FF' size={30} />
+                    {cartItems.length > 0 &&
+                      <span className='badge fs-6 p-1 rounded-pill bg-success  text-white'>{cartItems.length}</span>
+                    }
+                  </Link>
+                </button>
+              </div>
+            </>
           }
 
           {

@@ -463,6 +463,25 @@
           "date": "2024-08-28"
         }
       ]
+    },
+    {
+      "id": "01fc",
+      "name": "Mohit",
+      "email": "mishramohit6204@gmail.com",
+      "password": "Kriti@231",
+      "confirmPassword": "Kriti@231",
+      "appointment": [
+        {
+          "id": "2",
+          "name": "Dr. Emily Johnson",
+          "specialization": "Neurology",
+          "about": "Dr. Emily Johnson has 10 years of experience in neurology, focusing on neurological disorders and patient care.",
+          "img_src": "https://static.vecteezy.com/system/resources/thumbnails/028/287/555/small_2x/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
+          "location": "Los Angeles, CA",
+          "userId": "01fc",
+          "date": "2024-08-24"
+        }
+      ]
     }
   ],
   "cartitems": [
